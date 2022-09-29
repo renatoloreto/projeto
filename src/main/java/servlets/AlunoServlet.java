@@ -19,7 +19,7 @@ public class AlunoServlet extends HttpServlet {
 	private static final String LISTAR_ALUNOS = "alunos.jsp";
 	private static final String ATUALIZAR_ALUNOS = "aluno_form_editar.jsp";
 	private static final String DELETAR_ALUNOS = "alunos.jsp";
-
+ 
 	// Inicializando o servlet
 	public void init() throws ServletException {
 		alunoDAO = new AlunoDAOImplMysql();
