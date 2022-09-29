@@ -1,0 +1,19 @@
+1) Criar um banco de dados no MySQL chamado: db_bt002
+caso tenha usuário e senha modificar na classe AlunoDAOImplMysql
+
+2) Executar o SQL da aula de 24/05/2022
+aula_24_05_2022.sql   (logo acima)
+
+3) Maven update e install neste projeto
+
+4) Configurar o Apache Tomcat ou outro servidor
+
+5) Adicionar a aplicação/sistema no servidor
+
+6) Acessar http://localhost:8080/projetoweb/AlunoServlet
+
+7) Dividir a página index.jsp em cabeçalho.jsp e rodape.jsp
+
+8) Adicionar nas páginas alunos.jsp, professores.jsp e cursos.jsp 
+       <%@ include file="cabecalho.jsp" %>
+       <%@ include file="rodape.jsp" %>
